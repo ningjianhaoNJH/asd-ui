@@ -3,8 +3,4 @@ node_modules
 dist
 dist-ssr
 *.local
-yarn-error.log
-pnpm-lock.yaml
-components.d.ts
-.idea
-*.stackdump
+lib
