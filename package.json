@@ -1,28 +1,10 @@
 {
-  "type": "module",
-  "name": "asd-ui",
-   "version": "1.0.0",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "dependencies": {
-    "vue": "^3.2.41"
-  },
+  "version": "1.0.0",
+  "description": "组件库",
+  "keywords": [],
+  "author": "kongweigen",
+  "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.20.2",
-    "@vitejs/plugin-vue": "^3.2.0",
-    "@vitejs/plugin-vue-jsx": "^2.1.0",
-    "@vue/babel-plugin-jsx": "^1.1.1",
-    "babel": "^6.23.0",
-    "eslint": "^8.26.0",
-    "eslint-plugin-vue": "^9.7.0",
-    "prettier": "^2.7.1",
-    "typescript": "^4.6.4",
-    "vite": "^3.2.0",
-    "vite-plugin-dts": "^1.6.6",
-    "vue-tsc": "^1.0.9"
+    "turbo": "^1.7.3"
   }
 }

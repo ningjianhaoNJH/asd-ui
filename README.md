@@ -1,38 +1,21 @@
-# Vue Component Template
+# asd-ui
 
-this template includes:
+### 项目启动
 
-- Vue 3
-- TypeScript
-- TSX
-- Eslint
-- Prettier
+安装依赖
 
-It will help you to create own component
-
-## Getting Started
-
-```bash
-npx degit houtaroy/vue-component-template my-component
-cd my-component
+```
+pnpm i
 ```
 
-yarn:
+库构建
 
-```bash
-yarn
-yarn dev
-yarn build
+```
+turbo build
 ```
 
-pnpm:
+启动文档
 
-```bash
-pnpm install
-pnpm dev
-pnpm build
 ```
-
-## Utils
-
-provide a [componentUtil](https://github.com/houtaroy/vue-component-template/tree/main/package/utils/ComponentUtil.ts) to set `install` to your component
+pnpm -F docs  docs:dev
+```
